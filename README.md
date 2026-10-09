@@ -1,13 +1,14 @@
 # Repair Café Hobart website
 
-The live site is at https://repair-cafe-hobart.github.io/. It is a static site with no build step.
+The live site is at <https://repair-cafe-hobart.github.io/>. It is a static site with no build step.
 
 ## Site files
 
 - `index.html` contains the page content and navigation.
 - `styles.css` controls the layout, colours and responsive design.
 - `script.js` controls the small-screen navigation menu.
-- `repair-cafe-hobart-logo.png` is the supplied Repair Café Hobart logo.
+- `rch-logo-facebook.jpg` is the current social-media logo.
+- `repair-cafe-posters.jpg` is the supplied photo of Repair Café posters.
 
 ## Keep event information current
 
