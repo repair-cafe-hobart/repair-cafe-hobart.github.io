@@ -94,6 +94,7 @@
     doc.addEventListener('visibilitychange', () => { if (!doc.hidden) { render(doc, nextSession(sessions)); refresh(); } });
   }
   const api = {hobartDate,validSession,nextSession,parseCsv,displayParts,render};
+  root.RCHSessions = api;
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   if (root.document) start(root.document);
 })(typeof window === 'undefined' ? globalThis : window);

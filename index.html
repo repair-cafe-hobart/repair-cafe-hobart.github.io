@@ -6,7 +6,7 @@
   <meta name="description" content="Repair Café Hobart brings neighbours together to learn, share skills and give useful things a second life.">
   <meta name="theme-color" content="#f5f1e8">
   <title>Repair Café Hobart | Fix, learn, connect</title>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -16,7 +16,7 @@
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span class="sr-only">Open menu</span><span aria-hidden="true">☰</span></button>
     <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#how-it-works">How it works</a><a href="#next-cafe">Next café</a><a href="#repairs">What to bring</a><a href="#contact">Contact</a>
+      <a href="#about">About</a><a href="#how-it-works">How it works</a><a href="#next-cafe">Next café</a><a href="#roster">Roster</a><a href="#repairs">What to bring</a><a href="#contact">Contact</a>
       <a class="nav-cta" href="#volunteer">Volunteer</a>
     </nav>
   </header>
@@ -64,6 +64,14 @@
       <div class="event-card"><div class="calendar"><span data-session="month">TBC</span><b data-session="day">—</b><small data-session="weekday"></small></div><div><p class="event-label">Next Repair Café</p><h3 data-session="time">Time to be confirmed</h3><p>Kickstart Arts Inc<br>12 St John’s Avenue, New Town</p><span class="event-date" data-session="date">Next session date to be confirmed</span></div></div></div>
     </section>
 
+    <section class="section roster-section" id="roster" aria-labelledby="roster-title">
+      <div class="section-heading"><div><p class="eyebrow">Planning the next café</p><h2 id="roster-title">Next session roster</h2></div><p>Confirmed volunteers and the skills available at our next session.</p></div>
+      <p class="roster-date" data-session="date">Next session date to be confirmed</p>
+      <p id="roster-status" role="status" aria-live="polite">Loading the next session roster…</p>
+      <div id="roster-content"></div>
+      <p class="small-note">Plans may change. Repair categories depend on available volunteers, suitable items and parts. A volunteer may help in more than one role; the total counts each person once.</p>
+    </section>
+
     <section class="section repairs-section" id="repairs">
       <div class="section-heading"><div><p class="eyebrow">Bring it along</p><h2>What can you bring?</h2></div><p>Volunteer skills vary at each session. Tell us what you have and we’ll do our best to point you in the right direction.</p></div>
       <div class="repair-cards">
@@ -89,5 +97,6 @@
   <footer class="site-footer"><a class="brand brand-footer" href="#home"><img class="brand-logo" src="rch-logo-facebook.jpg" alt="" width="478" height="478"><span>Repair Café <b>Hobart</b></span></a><p>Fix what we can. Learn as we go. Make room for good things to last.</p><a href="#home" class="back-top">Back to top ↑</a></footer>
   <script src="script.js"></script>
   <script src="session-dates.js"></script>
+  <script src="roster-feed.js"></script>
 </body>
 </html>
