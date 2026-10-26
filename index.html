@@ -6,7 +6,7 @@
   <meta name="description" content="Repair Café Hobart brings neighbours together to learn, share skills and give useful things a second life.">
   <meta name="theme-color" content="#f5f1e8">
   <title>Repair Café Hobart | Fix, learn, connect</title>
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -38,6 +38,20 @@
     </section>
 
     <div class="ticker" aria-label="Our values"><span>Keep good things in use</span><i aria-hidden="true">✳</i><span>Share skills</span><i aria-hidden="true">✳</i><span>Meet your neighbours</span><i aria-hidden="true">✳</i><span>Waste less together</span></div>
+
+    
+    <section class="section repair-statistics" id="repair-statistics" aria-labelledby="repair-stats-title">
+      <p class="eyebrow">Every repair makes a difference</p>
+      <h2 id="repair-stats-title">Items repaired or helped with</h2>
+      <p>Completed repairs, partial repairs and practical advice — helping good things stay in use.</p>
+      <dl class="repair-stats-grid">
+        <div><dt>This month</dt><dd data-repair-stat="month">—</dd></div>
+        <div><dt>This year</dt><dd data-repair-stat="year">—</dd></div>
+        <div><dt>All years</dt><dd data-repair-stat="all">—</dd></div>
+      </dl>
+      <p class="small-note" id="repair-stats-status" role="status">Loading repair statistics…</p>
+      <noscript><p>Enable JavaScript to view the latest repair totals.</p></noscript>
+    </section>
 
     <section class="section about-grid" id="about">
       <div><p class="eyebrow">Good things, kept going</p><h2>A community that knows how to mend.</h2></div>
@@ -98,5 +112,6 @@
   <script src="script.js"></script>
   <script src="session-dates.js?v=5"></script>
   <script src="roster-feed.js?v=5"></script>
+  <script src="repair-stats.js?v=1"></script>
 </body>
 </html>
