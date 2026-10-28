@@ -12,7 +12,7 @@ The live site is at <https://repair-cafe-hobart.github.io/>. It is a static site
 
 ## Keep event information current
 
-Before each session, confirm the date, time, venue and access details in `index.html`. The current page lists Saturday 17 October 2026, 1–4 pm at Kickstart Arts Inc, 12 St John’s Avenue, New Town. Check whether any booking or visitor instructions need to be added.
+Before each session, confirm the date, time, venue and access details in `index.html`. The current page lists the next Saturday session date from the "Repair Café Hobart — Website Session Dates" spreadsheet, 1–4 pm at Kickstart Arts Inc, 12 St John’s Avenue, New Town. Check whether any booking or visitor instructions need to be added.
 
 ## Connect volunteer signup
 
